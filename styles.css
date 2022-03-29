@@ -1,0 +1,36 @@
+/* display none, class: hide-display none, or js linked to the html */
+
+.hide {
+    display: none;
+}
+#end {
+    text-align: center;
+    color: red;
+    background-color: lightgray;
+    margin: 80px 200px 0 200px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding: 12px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    
+}
+#timer-space{
+    font-family: "Times New Roman", Times, serif;
+    font-size:2px;
+
+}
+#Q0, #Q1, #Q2, #Q3, #Q4{
+    text-align: center;
+    background-color:lightgray;
+    border-style:solid;
+    border-width:2px;
+    border-color:black;
+    font-family: "Times New Roman", Times, serif;
+    font-size:25px;
+    padding: 12px;
+    margin: 80px 200px 0 200px;
+    
+
+}

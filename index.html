@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+
+        <!-- this goes for all windows , top left, top right-->
+        <!--link to high scores page, timer-->
+        <div id="time-space">
+            time: <span id="timer"></span>
+        </div>
+    </header>
+
+    <main>
+        <section id="start">
+            <h1>Welcome to My Quiz!</h1>
+            <p>Click Start to Begin</p>
+            <button id="start-btn">Start</button>
+        </section>
+        <section id="quiz" style="display: none;">Quiz</section>
+        <div class="hide" id="Q0">
+            <p>How many branches can you create in Github?</p>
+            <button class="answerBtn" value="2">2</button>
+            <button class="answerBtn" value="6">6</button>
+            <button class="answerBtn" value="1">1</button>
+            <button class="answerBtn" value="As many as you want">As many as you want</button>
+            <!-- Question with answer options 1-->
+        </div>
+
+        <div class="hide" id="Q1">
+            <p>A webpage should have?</p>
+            <button class="answerBtn" value="CSS">CSS</button>
+            <button class="answerBtn" value="Html">Html</button>
+            <button class="answerBtn" value="JavaScript">JavaScript</button>
+            <button class="answerBtn" value="All of the above">All of the above</button>
+            <!-- Question with answer options 2-->
+        </div>
+        <div class="hide" id="Q2">
+            <p>What identifier do you use for a class?</p>
+            <button class="answerBtn" value="id">id</button>
+            <button class="answerBtn" value=".">.</button>
+            <button class="answerBtn" value="class">class</button>
+            <button class="answerBtn" value="#">#</button>
+        </div>
+        <div class="hide" id="Q3">
+            <p>Name Key-Value Pairs</p>
+            <button class="answerBtn" value="sessionStorage">sessionStorage</button>
+            <button class="answerBtn" value="localStorage">localStorage</button>
+            <button class="answerBtn" value="sessionStorage and localStorage">sessionStorage and localStorage</button>
+            <button class="answerBtn" value="None of the above">None of the above</button>
+        </div>
+        <div class="hide" id="Q4">
+            <p>How should you manage your time in class?</p>
+            <button class="answerBtn" value="Text friends while listening">Text friends while listening</button>
+            <button class="answerBtn" value="Scroll down Facebook">Scroll down Facebook</button>
+            <button class="answerBtn" value="Take a phone call">Take a phone call</button>
+            <button class="answerBtn" value="PAY ATTENTION TO INSTRUCTOR!!!">PAY ATTENTION TO INSTRUCTOR!!!</button>
+        </div>
+
+        <section id="end" class="hide">End
+            <p>High Score</p>
+
+        </section>
+
+
+
+
+    </main>
+
+
+
+    <!-- <h3 id="h3" style="display:none;">I'm hidden</h3> -->
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
